@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+/* custom gradient */
+.lightSurface1 {
+  background: linear-gradient(
+      0deg,
+      rgba(103, 80, 164, 0.05),
+      rgba(103, 80, 164, 0.05)
+    ),
+    linear-gradient(0deg, #fffbfe, #fffbfe);
+}
+.lightSurface2 {
+  background: linear-gradient(
+      0deg,
+      rgba(103, 80, 164, 0.08),
+      rgba(103, 80, 164, 0.08)
+    ),
+    linear-gradient(0deg, #fffbfe, #fffbfe);
+}
+.hola {
+  background: red;
+}
