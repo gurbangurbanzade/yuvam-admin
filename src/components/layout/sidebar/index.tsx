@@ -12,7 +12,7 @@ const Sidebar = () => {
       <div className="">
         <div className="flex items-center gap-8 mb-44 ">
           <img
-            src="/src/assets/images/static/yuvam-logo.png"
+            src="./src/assets/images/static/yuvam-logo.png"
             className="w-[40px] h-[40px]"
           />
           <div className="hidden font-600 text-20 leading-22  text-primaryDefault  desktop:block">
